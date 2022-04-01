@@ -11,20 +11,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161623;
 }
 #navbar{
     
 
-    margin-bottom:65px;
-    height: small;
-    width: 100;
+    margin-bottom:100px;
+    height: 96px;
+    width: 750;
     background: #f9d60a;
-    height: 50px;
+    
 }
 
+
 .container{
-    width:950%;
+    width:1500%;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -114,3 +114,5 @@ body{
 
     }
   }
+  
+
