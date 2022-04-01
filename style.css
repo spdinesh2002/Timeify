@@ -5,6 +5,7 @@
     font-family: 'Poppins',sans-serif;
     
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -12,6 +13,16 @@ body{
     min-height: 100vh;
     background: #161623;
 }
+#navbar{
+    
+
+    margin-bottom:65px;
+    height: small;
+    width: 100;
+    background: #f9d60a;
+    height: 50px;
+}
+
 .container{
     width:950%;
     display: flex;
@@ -59,3 +70,47 @@ body{
     transform: scale(0-8);
 
 }
+@media only screen and (max-width: 800px) {
+    body {
+      background-color:rgb(3, 1, 45);
+    }
+    .container .hexagonArea.first .hexagon{
+        height: 100px;
+        width: 100px;
+        
+    }
+    .container .hexagonArea.first .hexagon img{
+        height: 30px;
+        width: 30px;
+    }
+    .container .hexagonArea.first .hexagon h3{
+        text-transform: uppercase;
+    font-weight:300 ;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+    
+    .container .hexagonArea.last .hexagon{
+        height: 100px;
+        width: 100px;
+        margin-top: 23px;
+        
+    }
+    .container .hexagonArea.last .hexagon img{
+        height: 27px;
+        width: 27px;
+        margin-top: 23px;
+
+    }
+    .container .hexagonArea.last .hexagon h3{
+        text-transform: uppercase;
+    font-weight:300 ;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5px;
+
+    }
+  }
